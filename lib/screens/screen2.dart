@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_tab/screens/form.dart';
 class Screen2 extends StatelessWidget {
 
   @override
@@ -53,7 +54,7 @@ class Screen2 extends StatelessWidget {
               ]),
             ]),
 
-              Expanded(
+              Center(
                 child: ElevatedButton(
                 onPressed: (){
                   Navigator.pushNamed(context, '/form');
@@ -61,7 +62,6 @@ class Screen2 extends StatelessWidget {
                 child: const Text('Fill Form'),
                 ),
               ),
-
 
       ],
     ),
